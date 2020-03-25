@@ -1,14 +1,16 @@
 import React from 'react'
-import './App.css'
-import { StyledApp, StyledH1 } from './styles'
+import { StyledApp, StyledH1, StyledH2 } from './styles'
+import Background from './components/Background'
+import Footer from './components/Footer'
 
 function App() {
 	return (
 		<StyledApp>
-			{/* <BodyFlow /> */}
+			<Background />
 			<div className='content-wrap'>
 				<div className='app-header'>
-					<StyledH1>Finsol PMO+ HUB</StyledH1>
+					<StyledH1>María José Calderón</StyledH1>
+					<StyledH2>Software Developer</StyledH2>
 				</div>
 				<div className='app-content'>
 					{/* LOCAL TESTING */}
@@ -21,8 +23,7 @@ function App() {
 				</div>
 			</div>
 			<div className='app-footer'>
-				{/* <Footer /> */}
-				<h3>Test footer</h3>
+				<Footer />
 			</div>
 		</StyledApp>
 	)

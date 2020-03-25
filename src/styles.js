@@ -2,6 +2,7 @@ import globalStyles from './store/globalStyles'
 import styled from 'styled-components'
 
 const { globalFont } = globalStyles
+
 export const StyledApp = styled.div`
 	body {
 		margin: 0 !important;
@@ -10,19 +11,18 @@ export const StyledApp = styled.div`
 	}
 
 	font-family: ${globalFont};
-
-	position: relative;
-	min-height: 99vh;
+	/* position: relative; */
+	/* min-height: 99vh; */
 	/* overflow-x: hidden; */
 
 	.content-wrap {
 		display: grid;
 		width: 100%;
 		grid-template-areas:
-			'area-appHeader'
-			'area-appContent'
-			'area-appFooter';
-		grid-template-columns: 1fr;
+			'area-appHeader area-appHeader area-appHeader'
+			'area-spaceLeft area-appContent area-spaceRight'
+			'area-appFooter area-appFooter area-appFooter';
+		grid-template-columns: 1fr 20fr 1fr;
 		grid-template-rows: 1fr;
 		column-gap: 5px;
 		row-gap: 5px;
@@ -42,7 +42,7 @@ export const StyledApp = styled.div`
 		position: absolute;
 		bottom: 0;
 		height: 48px;
-		width: 100%;
+		width: 98%;
 	}
 
 	.ant-btn-primary {
@@ -58,12 +58,22 @@ export const FormCard = styled.div.attrs({ className: 'card' })`
 `
 
 export const StyledH1 = styled.h1`
-	color: #ffffff;
-	text-shadow: 2px 2px black;
+	color: #000000;
+	text-shadow: 2px 2px #d6d6d6;
 	font-size: 40px;
 	text-align: center;
 	margin-bottom: 0;
 	margin-top: 1vw;
+`
+
+export const StyledH2 = styled.h2`
+	color: #000000;
+	text-shadow: 2px 2px #d6d6d6;
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-weight: normal;
 `
 
 export const StyledButton = styled.button`
