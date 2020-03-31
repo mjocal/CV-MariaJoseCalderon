@@ -1,8 +1,8 @@
-import React, { Fragment } from 'react'
-import StyledH from './styles'
-import { StyledButton } from '../../styles'
+import React from 'react'
+import { StyledH, Content, Wrapper } from './styles'
 import { navigate } from '@reach/router'
 import UrlData from '../../store/urlData'
+import { StyledButton } from '../../styles'
 
 const AboutMe = () => {
 	// let key = 1
@@ -12,28 +12,17 @@ const AboutMe = () => {
 	}
 
 	return (
-		<Fragment>
-			{/* <StyledCardsDiv className="wrapper">
-            <div className="cols">
-            {cardData.map(data => (
-                <Card
-                key={`ck-${key++}`}
-                title={data.title}
-                description={data.description}
-                isExternal={data.isExternal}
-                imageUrl={data.imageUrl}
-                pageUrl={data.pageUrl}
-                bgColor1={data.bgColor1}
-                bgColor2={data.bgColor2}
-                />
-            ))}
-            </div>
-        </StyledCardsDiv> */}
-
-			<StyledH>About Page Test</StyledH>
-
+		<Wrapper>
+			<Content>
+				<div className='content-left'>
+					<StyledH>About Me Test</StyledH>
+				</div>
+				<div className='content-right'>
+					<p>Some text</p>
+				</div>
+			</Content>
 			<StyledButton onClick={handleClick}>Back to home</StyledButton>
-		</Fragment>
+		</Wrapper>
 	)
 }
 

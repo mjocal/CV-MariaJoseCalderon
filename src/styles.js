@@ -35,6 +35,7 @@ export const StyledApp = styled.div`
 
 	.app-content {
 		grid-area: area-appContent;
+		text-align: center;
 	}
 
 	.app-footer {
@@ -47,8 +48,8 @@ export const StyledApp = styled.div`
 
 	.ant-btn-primary {
 		color: #fff;
-		background-color: #3f51b5;
-		border-color: #3f51b5;
+		background-color: #68789b;
+		border-color: #68789b;
 	}
 `
 
@@ -79,18 +80,18 @@ export const StyledH2 = styled.h2`
 export const StyledButton = styled.button`
 	font-size: initial;
 	color: white;
-	background-color: #1d57bc;
+	background-color: #68789b;
 	border: 0;
 	padding: 10px;
 	border-radius: 4px;
 	margin-top: 2em;
-	margin-left: 43vw;
 	width: 15%;
+	transition: background 0.5s;
 
 	:hover,
 	:focus {
-		background-color: #363636 !important;
-		border-color: #363636 !important;
+		background-color: #e9b5ff !important;
+		border-color: #e9b5ff !important;
 		outline: none;
 	}
 
