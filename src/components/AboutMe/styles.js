@@ -24,6 +24,10 @@ export const Content = styled.div`
 	.content-right {
 		grid-area: area-right;
 	}
+
+	.profile-img {
+		max-height: 500px;
+	}
 `
 
 export const Wrapper = styled.div``

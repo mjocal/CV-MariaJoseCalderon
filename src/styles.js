@@ -90,8 +90,8 @@ export const StyledButton = styled.button`
 
 	:hover,
 	:focus {
-		background-color: #e9b5ff !important;
-		border-color: #e9b5ff !important;
+		background-color: #5bd7e0 !important;
+		border-color: #5bd7e0 !important;
 		outline: none;
 	}
 
