@@ -60,7 +60,7 @@ export const FormCard = styled.div.attrs({ className: 'card' })`
 
 export const StyledH1 = styled.h1`
 	color: #000000;
-	text-shadow: 2px 2px #d6d6d6;
+	/* text-shadow: 2px 2px #d6d6d6; */
 	font-size: 40px;
 	text-align: center;
 	margin-bottom: 0;
@@ -69,7 +69,7 @@ export const StyledH1 = styled.h1`
 
 export const StyledH2 = styled.h2`
 	color: #000000;
-	text-shadow: 2px 2px #d6d6d6;
+	/* text-shadow: 2px 2px #d6d6d6; */
 	font-size: 25px;
 	text-align: center;
 	margin-bottom: 0;
@@ -90,8 +90,8 @@ export const StyledButton = styled.button`
 
 	:hover,
 	:focus {
-		background-color: #5bd7e0 !important;
-		border-color: #5bd7e0 !important;
+		background-color: #e0be5b !important;
+		border-color: #e0be5b !important;
 		outline: none;
 	}
 
