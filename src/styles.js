@@ -40,8 +40,9 @@ export const StyledApp = styled.div`
 
 	.app-footer {
 		grid-area: area-appFooter;
-		position: absolute;
+		/* position: fixed; */
 		bottom: 0;
+		margin-top: 20px;
 		height: 48px;
 		width: 98%;
 	}
