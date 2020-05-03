@@ -1,11 +1,22 @@
 import React, { Fragment } from 'react'
-import { StyledH } from './styles'
 import { StyledButton } from '../../styles'
+import {
+	Card,
+	CardHeader,
+	CardContent,
+	Table,
+	TableHead,
+	TableCell,
+	TableRow,
+	TableBody,
+} from '@material-ui/core'
 import { navigate } from '@reach/router'
 import UrlData from '../../store/urlData'
+import { aboutData } from './aboutData'
+import { StyledCard } from './styles'
 
 const AboutPage = () => {
-	// let key = 1
+	let key = 1
 
 	const handleClick = () => {
 		navigate(UrlData.homeUrl)
@@ -13,24 +24,29 @@ const AboutPage = () => {
 
 	return (
 		<Fragment>
-			{/* <StyledCardsDiv className="wrapper">
-            <div className="cols">
-            {cardData.map(data => (
-                <Card
-                key={`ck-${key++}`}
-                title={data.title}
-                description={data.description}
-                isExternal={data.isExternal}
-                imageUrl={data.imageUrl}
-                pageUrl={data.pageUrl}
-                bgColor1={data.bgColor1}
-                bgColor2={data.bgColor2}
-                />
-            ))}
-            </div>
-        </StyledCardsDiv> */}
-
-			<StyledH>About Page Test</StyledH>
+			<StyledCard className='wrapper'>
+				<div className='cols'>
+					{aboutData.map((data) => (
+						<Card className='card col' key={`ck-${key++}`}>
+							<CardHeader
+								className='root title'
+								style={{ backgroundColor: data.color }}
+								title={data.title}
+							/>
+							<CardContent className='content'>
+								<Table>
+									<TableHead>
+										<TableRow>
+											<TableCell>{data.description}</TableCell>
+										</TableRow>
+									</TableHead>
+									<TableBody>{data.info}</TableBody>
+								</Table>
+							</CardContent>
+						</Card>
+					))}
+				</div>
+			</StyledCard>
 
 			<StyledButton onClick={handleClick}>Back to home</StyledButton>
 		</Fragment>
