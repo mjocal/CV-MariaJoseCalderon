@@ -17,10 +17,10 @@ function App() {
 					<StyledH2>Software Developer</StyledH2>
 				</div>
 				<div className='app-content'>
-					<Router>
-						<Homepage path={`/`} />
-						<AboutMe path={`/aboutMe`} />
-						<AboutPage path={`/aboutPage`} />
+					<Router basename='cv_mjocal/'>
+						<Homepage path={`${process.env.PUBLIC_URL}/`} />
+						<AboutMe path={`${process.env.PUBLIC_URL}/aboutMe`} />
+						<AboutPage path={`${process.env.PUBLIC_URL}/aboutPage`} />
 					</Router>
 				</div>
 			</div>
