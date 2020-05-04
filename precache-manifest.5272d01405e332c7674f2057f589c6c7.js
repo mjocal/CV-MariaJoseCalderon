@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a7f708998a779313d9a7f961690175f",
+    "revision": "331972b7581e298bf8d987eeecf88be1",
     "url": "/cv_mjocal/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cv_mjocal/static/js/2.c7b0a169.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "329cb518a8cca460ba43",
-    "url": "/cv_mjocal/static/js/main.6e9a3465.chunk.js"
+    "revision": "ba228c2ff9c290bf13d3",
+    "url": "/cv_mjocal/static/js/main.f29cb22a.chunk.js"
   },
   {
     "revision": "3d9677160c41e62c8e80",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cv_mjocal/static/media/bananaCake.a7cfeee2.jpg"
   },
   {
-    "revision": "8fe775987cea3423c4d98a05f5112b0a",
-    "url": "/cv_mjocal/static/media/profile.8fe77598.jpg"
+    "revision": "7352e206fadb4d04417e224af600c752",
+    "url": "/cv_mjocal/static/media/profile.7352e206.jpg"
   },
   {
     "revision": "035d518245056511ddf5e4fb94847ace",
