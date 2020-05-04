@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/cv_mjocal/static/js/main.edbfe3d4.chunk.js",
-    "main.js.map": "/cv_mjocal/static/js/main.edbfe3d4.chunk.js.map",
+    "main.js": "/cv_mjocal/static/js/main.771a4585.chunk.js",
+    "main.js.map": "/cv_mjocal/static/js/main.771a4585.chunk.js.map",
     "runtime-main.js": "/cv_mjocal/static/js/runtime-main.15b0b1de.js",
     "runtime-main.js.map": "/cv_mjocal/static/js/runtime-main.15b0b1de.js.map",
     "static/js/2.2cc4f6da.chunk.js": "/cv_mjocal/static/js/2.2cc4f6da.chunk.js",
     "static/js/2.2cc4f6da.chunk.js.map": "/cv_mjocal/static/js/2.2cc4f6da.chunk.js.map",
     "index.html": "/cv_mjocal/index.html",
-    "precache-manifest.bf6ecf35d16bb90b250d5b20fdb55ce8.js": "/cv_mjocal/precache-manifest.bf6ecf35d16bb90b250d5b20fdb55ce8.js",
+    "precache-manifest.ca8d6211733c4b15269f1f38e23785d6.js": "/cv_mjocal/precache-manifest.ca8d6211733c4b15269f1f38e23785d6.js",
     "service-worker.js": "/cv_mjocal/service-worker.js",
     "static/js/2.2cc4f6da.chunk.js.LICENSE.txt": "/cv_mjocal/static/js/2.2cc4f6da.chunk.js.LICENSE.txt",
     "static/media/CV_MaJose_Calderon_SoftwareDeveloper.pdf": "/cv_mjocal/static/media/CV_MaJose_Calderon_SoftwareDeveloper.e228f153.pdf"
@@ -15,6 +15,6 @@
   "entrypoints": [
     "static/js/runtime-main.15b0b1de.js",
     "static/js/2.2cc4f6da.chunk.js",
-    "static/js/main.edbfe3d4.chunk.js"
+    "static/js/main.771a4585.chunk.js"
   ]
 }
