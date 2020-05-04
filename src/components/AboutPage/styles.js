@@ -3,6 +3,12 @@ import styled from 'styled-components'
 export const StyledCard = styled.div`
 	text-align: -webkit-center;
 
+	.icon {
+		font-size: 15px;
+		color: #3f51b5;
+		cursor: pointer;
+	}
+
 	.wrapper {
 		width: 90%;
 		margin: 0 auto;

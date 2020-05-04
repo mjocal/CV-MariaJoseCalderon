@@ -11,7 +11,7 @@ export const cardData = [
 	{
 		title: 'About this page',
 		isExternal: false,
-		description: 'See more details about this React App',
+		description: 'See more details about this website',
 		imageUrl: '/images/aboutPage.jpg',
 		pageUrl: UrlData.aboutPageUrl,
 	},

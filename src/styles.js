@@ -44,7 +44,7 @@ export const StyledApp = styled.div`
 		bottom: 0;
 		margin-top: 20px;
 		height: 48px;
-		width: 98%;
+		width: 100%;
 	}
 
 	.ant-btn-primary {
@@ -85,7 +85,7 @@ export const StyledButton = styled.button`
 	border: 0;
 	padding: 10px;
 	border-radius: 4px;
-	margin-top: 2em;
+	margin: 20px 10px;
 	width: 15%;
 	transition: background 0.5s;
 

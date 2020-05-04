@@ -1,17 +1,21 @@
 import React from 'react'
 import { TableRow, TableCell } from '@material-ui/core'
+import OpenInNewIcon from '@material-ui/icons/OpenInNew'
 
 let id = 0
-function createData(text) {
+function createData(text, url) {
 	id += 1
-	return { id, text }
+	return { id, text, url }
 }
 
 const dependencies = [
-	createData('Material UI'),
-	createData('Reach/Router'),
-	createData('Styled Components'),
-	createData('Eslint + Prettier'),
+	createData('Material UI ', 'https://material-ui.com/'),
+	createData('Reach/Router ', 'https://reach.tech/router'),
+	createData('Styled Components ', 'https://styled-components.com/'),
+	createData(
+		'Eslint + Prettier ',
+		'https://prettier.io/docs/en/integrating-with-linters.html'
+	),
 ]
 
 const images = [
@@ -27,7 +31,12 @@ export const aboutData = [
 		color: '#3f51b5',
 		info: dependencies.map((row) => (
 			<TableRow key={row.id}>
-				<TableCell>{row.text}</TableCell>
+				<TableCell>
+					{row.text}
+					<a href={row.url} rel='noopener noreferrer' target='_blank'>
+						<OpenInNewIcon className='icon' />
+					</a>{' '}
+				</TableCell>
 			</TableRow>
 		)),
 	},
@@ -45,15 +54,19 @@ export const aboutData = [
 		title: 'Images',
 		description: (
 			<span>
-				All images were taken from <strong>Unsplash</strong>, a platform for
-				free photos you can download and use in any project
+				All cards images were taken from{' '}
+				<strong>
+					<a
+						href='https://unsplash.com/'
+						rel='noopener noreferrer'
+						target='_blank'
+					>
+						Unsplash
+					</a>
+				</strong>
+				, a platform for free photos you can download and use in any project
 			</span>
 		),
 		color: '#3f51b5',
-		// info: images.map((row) => (
-		// 	<TableRow key={row.id}>
-		// 		<TableCell>{row.text}</TableCell>
-		// 	</TableRow>
-		// )),
 	},
 ]
