@@ -1,33 +1,38 @@
 import styled from 'styled-components'
 
-export const StyledH = styled.h1`
-	font-size: 2.8rem;
-	font-weight: 500;
-	color: #fff;
-	text-align: center;
-	text-shadow: 2px 2px #395562;
+export const Wrapper = styled.div`
+	width: 90%;
 	margin: 0 auto;
+	max-width: 80rem;
+	margin-top: 2em !important;
+
+	text-align: -webkit-center;
+
+	.cols {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		margin-top: 2em;
+	}
+
+	.col {
+		width: calc(25%);
+		margin: 1rem;
+
+		/* padding: 0 30px; */
+	}
+
+	.root {
+		max-width: 345;
+	}
+
+	.media {
+		height: 240px;
+		width: 320px;
+	}
 `
-
-export const Content = styled.div`
-	display: grid;
-	width: 100%;
-	grid-template-areas: 'area-left area-right';
-	grid-template-columns: 1fr 1fr;
-	column-gap: 5px;
-	/* padding-bottom: 50px; */
-
-	.content-left {
-		grid-area: area-left;
-	}
-
-	.content-right {
-		grid-area: area-right;
-	}
-
-	.profile-img {
-		max-height: 500px;
-	}
-`
-
-export const Wrapper = styled.div``
