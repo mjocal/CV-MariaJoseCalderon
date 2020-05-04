@@ -18,12 +18,6 @@ const dependencies = [
 	),
 ]
 
-const images = [
-	createData(
-		'All images were taken from Unsplash, a platform for free to use photos you can download and use for any project'
-	),
-]
-
 export const aboutData = [
 	{
 		title: 'Dependencies',

@@ -11,9 +11,6 @@ import {
 	CardMedia,
 	CardContent,
 	Typography,
-	CardActions,
-	Button,
-	Divider,
 } from '@material-ui/core'
 import { Fragment } from 'react'
 
