@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "331972b7581e298bf8d987eeecf88be1",
+    "revision": "af03ad1887f0b633cbdb3ddb74a1cf2a",
     "url": "/cv_mjocal/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cv_mjocal/static/js/2.c7b0a169.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ba228c2ff9c290bf13d3",
-    "url": "/cv_mjocal/static/js/main.f29cb22a.chunk.js"
+    "revision": "09dada38fdac8d6421f1",
+    "url": "/cv_mjocal/static/js/main.11e7ffce.chunk.js"
   },
   {
     "revision": "3d9677160c41e62c8e80",
@@ -24,15 +24,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cv_mjocal/static/media/CV_MaJose_Calderon_SoftwareDeveloper.e228f153.pdf"
   },
   {
-    "revision": "a7cfeee2fd645aa27c31bad04ed5ef6e",
-    "url": "/cv_mjocal/static/media/bananaCake.a7cfeee2.jpg"
+    "revision": "3d4abf0969eb2383f8fa6208282d7e34",
+    "url": "/cv_mjocal/static/media/bananaCake.3d4abf09.jpg"
   },
   {
-    "revision": "7352e206fadb4d04417e224af600c752",
-    "url": "/cv_mjocal/static/media/profile.7352e206.jpg"
+    "revision": "e6529e359fd0238a0480e6f7bf1594c4",
+    "url": "/cv_mjocal/static/media/profile.e6529e35.jpg"
   },
   {
-    "revision": "035d518245056511ddf5e4fb94847ace",
-    "url": "/cv_mjocal/static/media/work.035d5182.jpeg"
+    "revision": "97aee5531575cf74c89a7d144112ea01",
+    "url": "/cv_mjocal/static/media/work.97aee553.jpeg"
   }
 ]);

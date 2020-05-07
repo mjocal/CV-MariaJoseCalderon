@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.js": "/cv_mjocal/static/js/main.f29cb22a.chunk.js",
-    "main.js.map": "/cv_mjocal/static/js/main.f29cb22a.chunk.js.map",
+    "main.js": "/cv_mjocal/static/js/main.11e7ffce.chunk.js",
+    "main.js.map": "/cv_mjocal/static/js/main.11e7ffce.chunk.js.map",
     "runtime-main.js": "/cv_mjocal/static/js/runtime-main.15b0b1de.js",
     "runtime-main.js.map": "/cv_mjocal/static/js/runtime-main.15b0b1de.js.map",
     "static/js/2.c7b0a169.chunk.js": "/cv_mjocal/static/js/2.c7b0a169.chunk.js",
     "static/js/2.c7b0a169.chunk.js.map": "/cv_mjocal/static/js/2.c7b0a169.chunk.js.map",
     "index.html": "/cv_mjocal/index.html",
-    "precache-manifest.5272d01405e332c7674f2057f589c6c7.js": "/cv_mjocal/precache-manifest.5272d01405e332c7674f2057f589c6c7.js",
+    "precache-manifest.b27862e4b0e9712f48e211cb43a67b21.js": "/cv_mjocal/precache-manifest.b27862e4b0e9712f48e211cb43a67b21.js",
     "service-worker.js": "/cv_mjocal/service-worker.js",
     "static/js/2.c7b0a169.chunk.js.LICENSE.txt": "/cv_mjocal/static/js/2.c7b0a169.chunk.js.LICENSE.txt",
     "static/media/CV_MaJose_Calderon_SoftwareDeveloper.pdf": "/cv_mjocal/static/media/CV_MaJose_Calderon_SoftwareDeveloper.e228f153.pdf",
-    "static/media/bananaCake.jpg": "/cv_mjocal/static/media/bananaCake.a7cfeee2.jpg",
-    "static/media/profile.jpg": "/cv_mjocal/static/media/profile.7352e206.jpg",
-    "static/media/work.jpeg": "/cv_mjocal/static/media/work.035d5182.jpeg"
+    "static/media/bananaCake.jpg": "/cv_mjocal/static/media/bananaCake.3d4abf09.jpg",
+    "static/media/profile.jpg": "/cv_mjocal/static/media/profile.e6529e35.jpg",
+    "static/media/work.jpeg": "/cv_mjocal/static/media/work.97aee553.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.15b0b1de.js",
     "static/js/2.c7b0a169.chunk.js",
-    "static/js/main.f29cb22a.chunk.js"
+    "static/js/main.11e7ffce.chunk.js"
   ]
 }
