@@ -86,7 +86,6 @@ export const StyledButton = styled.button`
 	padding: 10px;
 	border-radius: 4px;
 	margin: 20px 10px;
-	width: 15%;
 	transition: background 0.5s;
 
 	:hover,

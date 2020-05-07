@@ -27,7 +27,7 @@ const AboutMe = () => {
 						<Card className='root card col'>
 							<CardActionArea>
 								<CardMedia
-									className='media'
+									// className='media'
 									component='img'
 									alt={data.tooltip}
 									image={data.image}

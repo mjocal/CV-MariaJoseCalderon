@@ -48,7 +48,7 @@ export const aboutData = [
 		title: 'Images',
 		description: (
 			<span>
-				All cards images were taken from{' '}
+				All homepage images were taken from{' '}
 				<strong>
 					<a
 						href='https://unsplash.com/'
@@ -60,6 +60,13 @@ export const aboutData = [
 				</strong>
 				, a platform for free photos you can download and use in any project
 			</span>
+		),
+		info: (
+			<TableRow>
+				<TableCell>
+					The pictures in the About Me section are from my camera
+				</TableCell>
+			</TableRow>
 		),
 		color: '#3f51b5',
 	},

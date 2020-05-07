@@ -3,6 +3,25 @@ import styled from 'styled-components'
 export const StyledCard = styled.div`
 	text-align: -webkit-center;
 
+	@media screen {
+		.col {
+			width: calc(33.333333% - 2rem);
+		}
+	}
+
+	@media screen and (max-width: 48rem) {
+		.col {
+			width: calc(50% - 2rem);
+		}
+	}
+
+	@media screen and (max-width: 32rem) {
+		.col {
+			width: 80%;
+			margin: 0 0 2rem 0;
+		}
+	}
+
 	.icon {
 		font-size: 15px;
 		color: #3f51b5;
@@ -20,7 +39,6 @@ export const StyledCard = styled.div`
 		margin-top: 40px;
 		border-radius: spacing(0.5);
 		transition: 0.3s;
-		width: 90%;
 		overflow: initial;
 		background-color: #ffffff;
 	}
@@ -38,9 +56,7 @@ export const StyledCard = styled.div`
 	}
 
 	.col {
-		width: calc(25% - 2rem);
 		margin: 1rem;
-		padding: 0 30px;
 	}
 
 	.content {
@@ -50,9 +66,12 @@ export const StyledCard = styled.div`
 
 	.root {
 		border-radius: 8px;
-		margin: auto;
-		width: 88%;
+		width: 70%;
 		box-shadow: 0px 3px 8px rgba(34, 35, 58, 0.5);
+	}
+
+	.maxRoot {
+		max-width: 345px;
 	}
 
 	.title {

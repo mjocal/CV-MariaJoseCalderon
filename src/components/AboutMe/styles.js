@@ -7,6 +7,27 @@ export const Wrapper = styled.div`
 	margin-top: 2em !important;
 
 	text-align: -webkit-center;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+	@media screen {
+		.col {
+			width: calc(33.333333% - 2rem);
+		}
+	}
+
+	@media screen and (max-width: 48rem) {
+		.col {
+			width: calc(50% - 2rem);
+		}
+	}
+
+	@media screen and (max-width: 32rem) {
+		.col {
+			width: 80%;
+			margin: 0 0 2rem 0;
+		}
+	}
 
 	.cols {
 		display: -webkit-box;
@@ -21,7 +42,7 @@ export const Wrapper = styled.div`
 	}
 
 	.col {
-		width: calc(25%);
+		/* width: calc(25%); */
 		margin: 1rem;
 
 		/* padding: 0 30px; */
@@ -29,10 +50,5 @@ export const Wrapper = styled.div`
 
 	.root {
 		max-width: 345;
-	}
-
-	.media {
-		height: 240px;
-		width: 320px;
 	}
 `

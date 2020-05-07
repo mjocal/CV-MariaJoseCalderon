@@ -27,7 +27,7 @@ const AboutPage = () => {
 			<StyledCard className='wrapper'>
 				<div className='cols'>
 					{aboutData.map((data) => (
-						<Card className='card col' key={`ck-${key++}`}>
+						<Card className='maxRoot card col' key={`ck-${key++}`}>
 							<CardHeader
 								className='root title'
 								style={{ backgroundColor: data.color }}
